@@ -14,6 +14,6 @@ int bins(int ar[],int r,int x)
 		if(ar[mid]<x)
 			return bins(ar,r,x);
 	}
-	return -1;
+	return 0;
 	
 }
